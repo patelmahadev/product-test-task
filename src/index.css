@@ -1,0 +1,137 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+/* header */
+.header {
+  background: #6494e0;
+  color: #fff;
+  padding: 10px 0px;
+}
+.logo {
+  display: flex;
+  gap: 15px;
+}
+
+.auth_btn_group {
+  display: flex;
+  justify-content: flex-end;
+  gap: 15px;
+}
+
+.menu ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+}
+.menu ul li a {
+  text-decoration: none;
+  padding: 0 10px;
+  text-transform: capitalize;
+  color: #fff;
+}
+
+.login_btn {
+  cursor: pointer;
+}
+/* buy section */
+.crd_image_wr {
+  padding: 18px 8px;
+  background-color: #fff9f9;
+  position: relative;
+}
+.crd_image_wr img {
+  border-radius: 8px;
+  width: 100%;
+  height: 300px;
+}
+.price_sec {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid rgb(180, 172, 172);
+}
+.price {
+  text-align: left;
+}
+.search {
+  width: 53px;
+  height: 53px;
+  background: #fff;
+  font-weight: bold;
+  color: rgb(64, 64, 226);
+  border-radius: 50%;
+}
+
+.search svg {
+  font-size: 18px;
+  position: relative;
+  top: 12px;
+}
+
+.crd_footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.crd_footer span svg {
+  color: #153f82;
+}
+
+.card-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: -10px; /* Adjust as needed */
+}
+
+.card {
+  flex: 0 0 calc(33.33% - 20px); /* Three cards in a row with margins */
+  margin: 10px; /* Adjust as needed */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  border-color: transparent !important;
+}
+
+.swiper-button-prev:after,
+.swiper-rtl .swiper-button-next:after {
+  content: "prev";
+  font-size: 15px !important;
+  color: #fff;
+}
+
+.swiper-button-next:after,
+.swiper-rtl .swiper-button-prev:after {
+  content: "next";
+  font-size: 15px !important;
+  color: #fff;
+}
+
+.new_sec {
+  display: flex;
+  justify-content: space-between !important;
+  position: absolute;
+  top: 40px;
+  z-index: 5;
+  width: 83%;
+}
+.btn_new {
+  border: none;
+  border-radius: 10px;
+  color: rgb(16, 69, 246);
+}
+.svg_l {
+  font-size: 19px;
+  background: white;
+  border-radius: 6px;
+}
